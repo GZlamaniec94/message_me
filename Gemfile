@@ -58,3 +58,7 @@ gem 'rack-cache', '~> 1.13'
 gem 'net-smtp', require: false
 
 gem 'rails_12factor'
+
+gem 'semantic-ui-sass'
+
+gem 'jquery-rails'
