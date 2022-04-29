@@ -29,4 +29,8 @@ class UserTest < ActiveSupport::TestCase
         @user.username = "aa"
         assert_not @user.valid? 
     end
+
+    test "passowrd should be present" do
+        assert @user.password_digest?
+    end    
 end
