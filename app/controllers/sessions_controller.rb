@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
             flash[:success] = "Logged successfully."
             redirect_to root_path
         else  
-            flash.now[:error] = "Your email or password was incorrect."
+            flash.now[:error] = "Your name or password was incorrect."
             render 'new'
         end    
     end    

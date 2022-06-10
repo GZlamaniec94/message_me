@@ -63,3 +63,6 @@ gem 'rails_12factor'
 gem 'semantic-ui-sass'
 
 gem 'jquery-rails'
+gem "redis"
+gem 'redis-rails'
+
